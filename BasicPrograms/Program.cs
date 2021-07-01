@@ -10,7 +10,8 @@ namespace BasicPrograms
             // FlipCoin.CoinFcaePercentage();
             //LeapYear.FindLeapYear();
             // Power.PowerOfTwo();
-            HarmonicProgram.HarmonicNumber();
+            //HarmonicProgram.HarmonicNumber();
+            PrimeFactor.FindPrimeFactor();
         }
     }
 }
