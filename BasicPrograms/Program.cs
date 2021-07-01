@@ -6,9 +6,10 @@ namespace BasicPrograms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Basic Programs :");
+            Console.WriteLine("Basic Programs ");
            // FlipCoin.CoinFcaePercentage();
-            LeapYear.FindLeapYear();
+            //LeapYear.FindLeapYear();
+            Power.PowerOfTwo();
         }
     }
 }
