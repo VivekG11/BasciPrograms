@@ -7,9 +7,10 @@ namespace BasicPrograms
         static void Main(string[] args)
         {
             Console.WriteLine("Basic Programs ");
-           // FlipCoin.CoinFcaePercentage();
+            // FlipCoin.CoinFcaePercentage();
             //LeapYear.FindLeapYear();
-            Power.PowerOfTwo();
+            // Power.PowerOfTwo();
+            HarmonicProgram.HarmonicNumber();
         }
     }
 }
