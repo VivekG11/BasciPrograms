@@ -15,7 +15,8 @@ namespace BasicPrograms
             // QuotientAndRemainder.FindQuotientAndRemainder();
             // Swap.SwappingValues();
             //Swap.SwappingVariables();
-            EvenOrAdd.FindEvenOrOdd();
+            // EvenOrAdd.FindEvenOrOdd();
+            Vowels.FindVowels();
         }
     }
 }
