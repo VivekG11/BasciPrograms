@@ -12,7 +12,9 @@ namespace BasicPrograms
             // Power.PowerOfTwo();
             //HarmonicProgram.HarmonicNumber();
             // PrimeFactor.FindPrimeFactor();
-            QuotientAndRemainder.FindQuotientAndRemainder();
+            // QuotientAndRemainder.FindQuotientAndRemainder();
+            Swap.SwappingValues();
+            Swap.SwappingVariables();
         }
     }
 }
