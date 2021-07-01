@@ -13,8 +13,9 @@ namespace BasicPrograms
             //HarmonicProgram.HarmonicNumber();
             // PrimeFactor.FindPrimeFactor();
             // QuotientAndRemainder.FindQuotientAndRemainder();
-            Swap.SwappingValues();
-            Swap.SwappingVariables();
+            // Swap.SwappingValues();
+            //Swap.SwappingVariables();
+            EvenOrAdd.FindEvenOrOdd();
         }
     }
 }
