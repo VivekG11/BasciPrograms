@@ -11,7 +11,8 @@ namespace BasicPrograms
             //LeapYear.FindLeapYear();
             // Power.PowerOfTwo();
             //HarmonicProgram.HarmonicNumber();
-            PrimeFactor.FindPrimeFactor();
+            // PrimeFactor.FindPrimeFactor();
+            QuotientAndRemainder.FindQuotientAndRemainder();
         }
     }
 }
