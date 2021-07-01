@@ -8,6 +8,9 @@ namespace BasicPrograms
     {
         public static void SwappingValues()
         {
+            /*...............................................
+             * Case 1: Solving using temp variable
+             * ........................................*/
             int temp = 0;
             Console.WriteLine("Enter values to be swapped :");
             int first = Convert.ToInt32(Console.ReadLine());
@@ -18,6 +21,9 @@ namespace BasicPrograms
             second = temp;
             Console.WriteLine("Values after swapping : "+ first+" "+second );
         }
+        /*....................................................
+         * case 2: Solving using two variables
+         * .....................................................*/
         public static void SwappingVariables()
         {
             Console.WriteLine("Enter the values :");
