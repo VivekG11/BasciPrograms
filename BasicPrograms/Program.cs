@@ -16,7 +16,8 @@ namespace BasicPrograms
             // Swap.SwappingValues();
             //Swap.SwappingVariables();
             // EvenOrAdd.FindEvenOrOdd();
-            Vowels.FindVowels();
+            // Vowels.FindVowels();
+            Largest.LargestOfThree();
         }
     }
 }
