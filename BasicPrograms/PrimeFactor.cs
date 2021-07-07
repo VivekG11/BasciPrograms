@@ -10,18 +10,24 @@ namespace BasicPrograms
         {
             Console.WriteLine("Enter a value to find Prime factors ");
             int num = Convert.ToInt32(Console.ReadLine());
-                for (int i =2; i*i<num ; i++)
+            while(num % 2 == 0)
             {
-                if(num%i==0)
+                Console.Write(2 + " " );
+                num = num / 2;
+            }
+            for (int i =3; i*i<=num ; i+=2)
+            {
+                while(num % i == 0)
                 {
-                    Console.WriteLine(i+" ");
-                }
-                else
-                {
-                    Console.WriteLine("Entered Number is a Prime Number, so there won't be prime factors");
-                    break;
+                    Console.WriteLine(i + " ");
+                    num = num / i;
                 }
             }
+            if(num>2)
+            {
+                Console.WriteLine(num);
+            }
+           
         }
        
     }
